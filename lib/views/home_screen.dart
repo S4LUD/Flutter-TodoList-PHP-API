@@ -64,7 +64,7 @@ class ToDoPageState extends State<HomeScreen> {
       fetchTodos();
     } else {
       // Handle the case where userId is null, maybe show an error message
-      print('User not logged in');
+      // print('User not logged in');
     }
   }
 

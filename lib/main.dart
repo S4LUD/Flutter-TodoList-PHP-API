@@ -32,6 +32,8 @@ class MyApp extends StatelessWidget {
     AppRouter appRouter = AppRouter();
     return MaterialApp.router(
       routerConfig: appRouter.config(),
+      debugShowCheckedModeBanner:
+          false, // Set this to false to hide the debug banner
     );
   }
 }
