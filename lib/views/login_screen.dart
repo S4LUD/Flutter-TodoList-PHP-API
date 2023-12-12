@@ -23,7 +23,8 @@ class LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-    todoController = TodoController('http://192.168.1.80/TodoListAPI/');
+    todoController = TodoController(
+        'https://c9ba-2001-4450-49c4-ca00-e481-8958-56b3-af5.ngrok-free.app/TodoListAPI/');
   }
 
   Future<void> authenticateUser() async {
